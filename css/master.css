@@ -226,7 +226,6 @@ svg {
 */
 
 body {
-  min-width: 960px;
 }
 
 /* `Container
@@ -875,13 +874,10 @@ body {
 */
 #yf-container {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 20px auto;
   border: 1px solid #ddd;
-  margin-left: -300px;
-  margin-top: -300px;
-  height: 600px;
-  width: 600px;
+  height: 200px;
+  width: 200px;
 }
 
 #yj-main {
@@ -906,14 +902,11 @@ body {
 #animdemo {
 }
 .feed-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 20px auto;
   border: 1px solid #ddd;
-  margin-left: -300px;
-  margin-top: -300px;
-  height: 600px;
-  width: 600px;}
+  height: 500px;
+  width: 500px;
+}
 
 
 
