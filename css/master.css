@@ -901,12 +901,14 @@ body {
 }
 #animdemo {
 }
-.feed-container {
+.content-container {
   margin: 20px auto;
   border: 1px solid #ddd;
   height: 500px;
   width: 500px;
 }
+
+
 
 
 

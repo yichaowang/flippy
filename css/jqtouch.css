@@ -1901,11 +1901,8 @@ body {
 }
 /* line 20, ../scss/jqtouch.scss */
 #jqt .toolbar {
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 12.5, color-stop(12.5%, #181819), color-stop(12.5%, rgba(11, 11, 12, 0))), -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 12.5, color-stop(12.5%, #181819), color-stop(12.5%, rgba(11, 11, 12, 0))), -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 12.5, color-stop(12.5%, rgba(255, 255, 255, 0.1)), color-stop(12.5%, rgba(255, 255, 255, 0))), -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 12.5, color-stop(12.5%, rgba(255, 255, 255, 0.1)), color-stop(12.5%, rgba(255, 255, 255, 0)));
-  background-image: -webkit-radial-gradient(#181819 12.5%, rgba(11, 11, 12, 0) 12.5%), -webkit-radial-gradient(#181819 12.5%, rgba(11, 11, 12, 0) 12.5%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 12.5%, rgba(255, 255, 255, 0) 12.5%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 12.5%, rgba(255, 255, 255, 0) 12.5%);
-  background-image: radial-gradient(#181819 12.5%, rgba(11, 11, 12, 0) 12.5%), radial-gradient(#181819 12.5%, rgba(11, 11, 12, 0) 12.5%), radial-gradient(rgba(255, 255, 255, 0.1) 12.5%, rgba(255, 255, 255, 0) 12.5%), radial-gradient(rgba(255, 255, 255, 0.1) 12.5%, rgba(255, 255, 255, 0) 12.5%);
+  background-image: url('/images/bg-toolbar.png');
   background-repeat: repeat;
-  background-position: 0 0, 8px 8px, 0 1px, 8px 9px;
   background-color: #2f3031;
   background-size: 16px 16px;
 }
