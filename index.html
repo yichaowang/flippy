@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/css/jqtouch.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <script src="/j/vendor/jquery-1.7.js"></script>
+  <script src="/j/vendor/jqtouch.js"></script>
+  <script src="/j/vendor/jqtouch-jquery.js"></script>
+  <script src="/j/master.js"></script>
+  <title>Flippy</title>
+  <meta name="author" content="Yichao Wang">
+</head>
+<body>
+    <div id="feed_1">
+      <div class="feed-container">
+        <h1>Feed 1</h1>
+        <a href="#feed_2" class="flip">next</a>
+        <a href="#" class="goback">back</a>
+      </div>
+    </div>
+    <div id="feed_2">
+      <div class="feed-container">
+        <h1>Feed 2</h1>
+        <a href="#feed_1" class="flip">previous</a>
+        <a href="#feed_3" class="flip">next</a>
+        <a href="#" class="goback">back</a>
+      </div>
+    </div>
+    <div id="feed_3">
+      <div class="feed-container">
+        <h1>Feed 3</h1>
+        <a href="#feed_2" class="flip">previous</a>
+        <a href="#" class="goback">back</a> 
+      </div>
+    </div>
+</body>
+</html>
